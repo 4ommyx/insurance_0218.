@@ -73,6 +73,7 @@ if st.button("🔮 คำนวณค่าใช้จ่าย"):
         features = np.array([[age, gender, bmi, children, smoker]])
         features_scaled = scaler.transform(features)  # สำคัญ! ต้องทำ Scaling ก่อนนำไปทำนาย
 
+        
         prediction = model.predict(features_scaled)
         st.success(f"🎉 ค่าประมาณของค่าใช้จ่ายประกันสุขภาพ : **${prediction[0]:,.2f}**")
     except Exception as e:
