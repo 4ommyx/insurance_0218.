@@ -17,18 +17,10 @@ st.set_page_config(
 st.markdown("""
     <style>
         body { background-color: #f7f7f7; }
-        .title {
-            font-size: 36px;
-            color: #2c3e50;
-            font-weight: bold;
-            text-align: center;
-        }
-        .subtitle {
-            font-size: 18px;
-            color: #7f8c8d;
-            text-align: center;
-            margin-bottom: 20px;
-        }
+            .main {
+        max-width: 80%;  /* กำหนดความกว้างเป็น 80% */
+        margin: auto;     /* จัดให้อยู่กลาง */
+    }
     </style>
 """, unsafe_allow_html=True)
 
