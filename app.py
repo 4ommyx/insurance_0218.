@@ -10,7 +10,6 @@ scaler = joblib.load('scaler.pkl')
 st.set_page_config(
     page_title="แอปคำนวณค่าใช้จ่ายประกันสุขภาพ",
     page_icon="💰",
-    layout="centered",
 )
 
 # CSS Styling เพื่อปรับแต่ง UI
